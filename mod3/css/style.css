@@ -1,0 +1,89 @@
+/** BODY **/
+body{
+    background-color: rgb(210, 110, 110);
+}
+
+/** HEADER **/
+#header-nav {
+    background-color: bisque;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+#logo-img {
+    background: url('../images/calvin.png') no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+    float: left;
+    }
+
+.navbar-brand a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.navbar-brand h1 { /*company name */
+    font-family: 'Lora';
+    color: rgb(242, 152, 43);
+    font-size: 2.5em;
+    font-weight:700;
+    text-shadow: 1px 1px 1px rgb(96, 53, 5);
+    padding-top: 25px;
+}
+
+.navbar-brand p { /* copyright */
+    color: #000;
+    font-size: .5em;
+    margin-top: 0px;
+}
+
+button { /*navbar toggler*/
+    position: relative;
+    float: right;
+}
+
+.navbar-nav .nav-link.active { /*specific for aligning icon and text of navbar items*/
+    font-family: 'Lora';
+    color: rgb(242, 152, 43);
+    font-size: 1.4em;
+    font-weight:700; 
+    text-align: center;
+}
+
+.nav-item a:hover {
+    background-color: blanchedalmond;
+}
+
+.jumbotron {
+    margin-top: 30px;
+    box-shadow: 0px 0px 12px rgb(137, 40, 40);
+    border: 3px solid rgb(155, 44, 44)
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .jumbotron {
+      background: url('../images/jumbotron-576.jpg') no-repeat;
+      height: 384px;
+    }
+  }
+@media (min-width: 768px) and (max-width:991px) {
+    .jumbotron {
+        background: url('../images/jumbotron-768.jpg') no-repeat;
+        height: 432px;
+        }
+    }
+  
+@media (min-width: 992px) and (max-width:1199px) {
+    .jumbotron {
+        background: url('../images/jumbotron-992.jpg') no-repeat;
+        height: 675px;
+        }
+    }
+    
+@media (min-width: 1200px) {
+    .jumbotron{
+    background: url('../images/jumbotron-1200.jpg') no-repeat;
+    height: 675px;
+    }
+  }
