@@ -100,34 +100,82 @@ button { /*navbar toggler*/
     opacity:0.3;
 }
 
+/*FOOTER*/
+footer.footer-panel {
+    background-color: #e18181;
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+
+.footer-panel .row {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.footer-panel section {
+    line-height: 1.8;
+    text-align: center;
+}
+
+#address p {
+    color: antiquewhite;
+    font-size: small;
+}
+
+.footer-panel hr {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-panel #testimonals {
+    line-height: 1.2;
+    font-style: italic;
+    font-size: 1.1;
+}
+
+.footer-panel section span {
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+/*Extra small device media query*/
 @media (max-width: 575px) {  
     #menu-tile, #specials-tile, #map-tile {
         width: 360px;
         margin: 0 auto 15px;
         }
+
+    .footer-panel #testimonals {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
+/*small device media query*/
 @media (min-width: 576px) and (max-width: 767px) {
     .jumbotron {
       background: url('../images/jumbotron-576.jpg') no-repeat;
       height: 384px;
         }
     }
-
+/*medium device media query*/
 @media (min-width: 768px) and (max-width:991px) {
     .jumbotron {
         background: url('../images/jumbotron-768.jpg') no-repeat;
         height: 432px;
         }
     }
-  
+/*large device media query*/
 @media (min-width: 992px) and (max-width:1199px) {
     .jumbotron {
         background: url('../images/jumbotron-992.jpg') no-repeat;
         height: 675px;
         }
     }
-    
+
+/*Extra large device media query*/
 @media (min-width: 1200px) {
     .jumbotron{
     background: url('../images/jumbotron-1200.jpg') no-repeat;
