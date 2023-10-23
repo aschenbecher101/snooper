@@ -1,0 +1,58 @@
+body{
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    font-size: larger;
+    font-weight: bold;
+}
+.navbar-nav{
+    border: dotted black;
+    margin-top: 15px;
+}
+
+.navbar-toggler:hover {
+    background-color: rgb(139, 189, 189);
+}
+a.nav-link {
+    text-align: center;
+}
+a.nav-link:hover {
+    opacity: 0.8;
+    background-color: rgb(139, 189, 189);
+}
+
+.title {
+    width: 100%;
+    text-align:center;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.row .tiles{
+    width: 100%;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: antiquewhite;
+}
+
+@media (min-width: 991px) {
+    .row .tiles{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+.row div h3 {
+    padding-top: 10px;
+    text-align: center;
+    font-weight:700;
+    width: 100%;
+}
+
+.row div p {
+    text-align:justify;
+}
